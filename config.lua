@@ -1,5 +1,5 @@
-return {
-	bot_api_key = "", --Please add your bot api key here!
+﻿return {
+	bot_api_key = "260278295:AAFFI9GL6V4N_aJKjQAGIqjJcfxmHCyjKac", --260278295:AAFFI9GL6V4N_aJKjQAGIqjJcfxmHCyjKac!
 	cmd = '^[/!#]',
 	allowed_updates = {"message", "edited_message", "callback_query"},
 	db = 2, --default redis db: 0
@@ -30,7 +30,7 @@ return {
 	},
 	channel = '@groupbutler_beta', --channel username with the '@'
 	source_code = 'https://github.com/RememberTheAir/GroupButler/tree/beta',
-	help_groups_link = 'telegram.me/GBgroups',
+	help_groups_link = 'telegram.me/Gretongers_club',
 	plugins = {
 		'onmessage', --THIS MUST BE THE FIRST: IF AN USER IS FLOODING/IS BLOCKED, THE BOT WON'T GO THROUGH PLUGINS
 		'antispam', --SAME OF onmessage.lua
